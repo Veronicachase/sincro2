@@ -15,7 +15,7 @@ export default function HomeOptions() {
   return (
     <div className="container-wrapper ">
     <div>
-    <h2 className="mb-5">¿Qué quieres hacer hoy? </h2>
+    <h2 className="mb-5 mt-5">¿Qué quieres hacer hoy? </h2>
     </div>
       <div className="grid-container">
         {MenuOptionsList.map((option, index) => (
